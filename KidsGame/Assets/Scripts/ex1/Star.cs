@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shape : MonoBehaviour
+public class Star : MonoBehaviour
 {
-
     [SerializeField]
     private Transform objectPlace;
     private Vector2 initialPos;
@@ -14,7 +13,7 @@ public class Shape : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        initialPos = transform.position;   
+        initialPos = transform.position;
     }
 
     // Update is called once per frame
