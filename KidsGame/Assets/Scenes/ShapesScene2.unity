@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 4103630}
   - component: {fileID: 4103629}
   - component: {fileID: 4103631}
+  - component: {fileID: 4103632}
   m_Layer: 5
   m_Name: pizza
   m_TagString: Untagged
@@ -210,6 +211,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlace1: {fileID: 1669456009}
   objectPlace2: {fileID: 936241711}
+--- !u!61 &4103632
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4103627}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &241851496
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,8 +781,9 @@ GameObject:
   - component: {fileID: 608935494}
   - component: {fileID: 608935493}
   - component: {fileID: 608935495}
+  - component: {fileID: 608935496}
   m_Layer: 5
-  m_Name: rugby
+  m_Name: ballon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -831,6 +859,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlace1: {fileID: 1833286347}
   objectPlace2: {fileID: 714110880}
+--- !u!61 &608935496
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608935491}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &661510591
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,6 +1171,7 @@ GameObject:
   - component: {fileID: 973655232}
   - component: {fileID: 973655231}
   - component: {fileID: 973655233}
+  - component: {fileID: 973655234}
   m_Layer: 5
   m_Name: basketball
   m_TagString: Untagged
@@ -1194,6 +1249,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlace1: {fileID: 1669456009}
   objectPlace2: {fileID: 936241711}
+--- !u!61 &973655234
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973655229}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &989622018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1679,6 +1760,7 @@ GameObject:
   - component: {fileID: 1475205942}
   - component: {fileID: 1475205941}
   - component: {fileID: 1475205943}
+  - component: {fileID: 1475205944}
   m_Layer: 5
   m_Name: sign
   m_TagString: Untagged
@@ -1756,6 +1838,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlace1: {fileID: 1768011141}
   objectPlace2: {fileID: 1836508589}
+--- !u!61 &1475205944
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475205939}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1543181446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1768,6 +1876,7 @@ GameObject:
   - component: {fileID: 1543181449}
   - component: {fileID: 1543181448}
   - component: {fileID: 1543181450}
+  - component: {fileID: 1543181451}
   m_Layer: 5
   m_Name: watermelon
   m_TagString: Untagged
@@ -1845,6 +1954,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlace1: {fileID: 1768011141}
   objectPlace2: {fileID: 1836508589}
+--- !u!61 &1543181451
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543181446}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1591757493
 GameObject:
   m_ObjectHideFlags: 0
@@ -2516,6 +2651,7 @@ GameObject:
   - component: {fileID: 1993169872}
   - component: {fileID: 1993169871}
   - component: {fileID: 1993169873}
+  - component: {fileID: 1993169874}
   m_Layer: 5
   m_Name: mirror
   m_TagString: Untagged
@@ -2593,6 +2729,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPlace1: {fileID: 1833286347}
   objectPlace2: {fileID: 714110880}
+--- !u!61 &1993169874
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993169869}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &2053712959
 GameObject:
   m_ObjectHideFlags: 0
