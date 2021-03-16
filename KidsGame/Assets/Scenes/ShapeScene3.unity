@@ -284,6 +284,7 @@ GameObject:
   - component: {fileID: 194031036}
   - component: {fileID: 194031035}
   - component: {fileID: 194031037}
+  - component: {fileID: 194031038}
   m_Layer: 5
   m_Name: Ellipse1Shape
   m_TagString: Untagged
@@ -303,7 +304,7 @@ RectTransform:
   m_LocalScale: {x: 1.7580932, y: 0.8789104, z: 1.2557837}
   m_Children: []
   m_Father: {fileID: 1200539066}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 69.218}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -373,6 +374,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &194031038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194031033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d751f74daf071d743a6e37c1e071729b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace: {fileID: 1711960}
 --- !u!1 &282902022
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,6 +473,7 @@ GameObject:
   - component: {fileID: 292830679}
   - component: {fileID: 292830678}
   - component: {fileID: 292830680}
+  - component: {fileID: 292830681}
   m_Layer: 5
   m_Name: Ellipse2Shape
   m_TagString: Untagged
@@ -478,7 +493,7 @@ RectTransform:
   m_LocalScale: {x: 1.2756332, y: 0.85339403, z: 1.2193259}
   m_Children: []
   m_Father: {fileID: 1200539066}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -25.880001}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -548,6 +563,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &292830681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292830676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d751f74daf071d743a6e37c1e071729b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace: {fileID: 1754173590}
 --- !u!1 &361778839
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,6 +588,7 @@ GameObject:
   - component: {fileID: 361778842}
   - component: {fileID: 361778841}
   - component: {fileID: 361778843}
+  - component: {fileID: 361778844}
   m_Layer: 5
   m_Name: Ellipse6Shape
   m_TagString: Untagged
@@ -649,6 +678,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &361778844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361778839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d751f74daf071d743a6e37c1e071729b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace: {fileID: 282902023}
 --- !u!1 &420037949
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,6 +832,7 @@ GameObject:
   - component: {fileID: 493335256}
   - component: {fileID: 493335255}
   - component: {fileID: 493335257}
+  - component: {fileID: 493335258}
   m_Layer: 5
   m_Name: Circle1Shape
   m_TagString: Untagged
@@ -879,6 +922,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &493335258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493335253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d751f74daf071d743a6e37c1e071729b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace: {fileID: 1642440755}
 --- !u!1 &498578544
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,6 +1587,7 @@ GameObject:
   - component: {fileID: 961463820}
   - component: {fileID: 961463819}
   - component: {fileID: 961463821}
+  - component: {fileID: 961463822}
   m_Layer: 5
   m_Name: Rectangle3Shape
   m_TagString: Untagged
@@ -1620,6 +1677,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &961463822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961463817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d751f74daf071d743a6e37c1e071729b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace: {fileID: 901408548}
 --- !u!1 &1023489362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1866,11 +1936,11 @@ RectTransform:
   - {fileID: 961463818}
   - {fileID: 493335254}
   - {fileID: 361778840}
+  - {fileID: 1779250220}
   - {fileID: 1733021749}
   - {fileID: 1436213019}
   - {fileID: 292830677}
   - {fileID: 194031034}
-  - {fileID: 1779250220}
   m_Father: {fileID: 2289569}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2109,6 +2179,7 @@ GameObject:
   - component: {fileID: 1436213021}
   - component: {fileID: 1436213020}
   - component: {fileID: 1436213022}
+  - component: {fileID: 1436213023}
   m_Layer: 5
   m_Name: Ellipse3Shape
   m_TagString: Untagged
@@ -2128,7 +2199,7 @@ RectTransform:
   m_LocalScale: {x: 1.6308482, y: 0.853394, z: 1.2193259}
   m_Children: []
   m_Father: {fileID: 1200539066}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -52.984}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2198,6 +2269,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1436213023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436213018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d751f74daf071d743a6e37c1e071729b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace: {fileID: 588294529}
 --- !u!1 &1478352771
 GameObject:
   m_ObjectHideFlags: 0
@@ -2570,6 +2654,7 @@ GameObject:
   - component: {fileID: 1733021751}
   - component: {fileID: 1733021750}
   - component: {fileID: 1733021752}
+  - component: {fileID: 1733021753}
   m_Layer: 5
   m_Name: Ellipse4Shape
   m_TagString: Untagged
@@ -2589,7 +2674,7 @@ RectTransform:
   m_LocalScale: {x: 1.6308482, y: 0.8533939, z: 1.2193259}
   m_Children: []
   m_Father: {fileID: 1200539066}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 41.466003}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2659,6 +2744,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1733021753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733021748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d751f74daf071d743a6e37c1e071729b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace: {fileID: 1873751606}
 --- !u!1 &1739099894
 GameObject:
   m_ObjectHideFlags: 0
@@ -2671,6 +2769,7 @@ GameObject:
   - component: {fileID: 1739099897}
   - component: {fileID: 1739099896}
   - component: {fileID: 1739099898}
+  - component: {fileID: 1739099899}
   m_Layer: 5
   m_Name: Rectangle2Shape
   m_TagString: Untagged
@@ -2760,6 +2859,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1739099899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739099894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d751f74daf071d743a6e37c1e071729b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace: {fileID: 2043350701}
 --- !u!1 &1751744377
 GameObject:
   m_ObjectHideFlags: 0
@@ -2772,6 +2884,7 @@ GameObject:
   - component: {fileID: 1751744380}
   - component: {fileID: 1751744379}
   - component: {fileID: 1751744381}
+  - component: {fileID: 1751744382}
   m_Layer: 5
   m_Name: Rectangle1Shape
   m_TagString: Untagged
@@ -2861,6 +2974,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1751744382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751744377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d751f74daf071d743a6e37c1e071729b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace: {fileID: 1107198713}
 --- !u!1 &1754173589
 GameObject:
   m_ObjectHideFlags: 0
@@ -2947,6 +3073,7 @@ GameObject:
   - component: {fileID: 1779250222}
   - component: {fileID: 1779250221}
   - component: {fileID: 1779250223}
+  - component: {fileID: 1779250224}
   m_Layer: 4
   m_Name: Ellipse5Shape
   m_TagString: Untagged
@@ -2966,7 +3093,7 @@ RectTransform:
   m_LocalScale: {x: 1.8347043, y: 0.853394, z: 1.2193259}
   m_Children: []
   m_Father: {fileID: 1200539066}
-  m_RootOrder: 9
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3036,6 +3163,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1779250224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779250219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d751f74daf071d743a6e37c1e071729b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPlace: {fileID: 1023489363}
 --- !u!1 &1873751605
 GameObject:
   m_ObjectHideFlags: 0

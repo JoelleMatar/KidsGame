@@ -7,6 +7,8 @@ public class PauseMenuController : MonoBehaviour
 {
     [SerializeField]
     private GameObject pauseMenu;
+    private int count=0;
+    public 
     // Start is called before the first frame update
     void Start()
     {
@@ -32,23 +34,23 @@ public class PauseMenuController : MonoBehaviour
        pauseMenu.SetActive(true);
     }
 
-    private void hideMenu(GameObject panel)
-    {
-        if (Input.GetMouseButton(0) && panel.activeSelf &&
-            !RectTransformUtility.RectangleContainsScreenPoint(
-                panel.GetComponent<RectTransform>(),
-                Input.mousePosition,
-                Camera.main)
-              || (Input.touchCount > 0 && panel.activeSelf &&
-              !RectTransformUtility.RectangleContainsScreenPoint(
-                 panel.GetComponent<RectTransform>(),
-                Input.GetTouch(0).position,
-                Camera.main))
-              )
-        {
-            panel.SetActive(false);
-        }
-    }
+    //private void hideMenu(GameObject panel)
+    //{
+    //    if (Input.GetMouseButton(0) && panel.activeSelf &&
+    //        !RectTransformUtility.RectangleContainsScreenPoint(
+    //            panel.GetComponent<RectTransform>(),
+    //            Input.mousePosition,
+    //            Camera.main)
+    //          || (Input.touchCount > 0 && panel.activeSelf &&
+    //          !RectTransformUtility.RectangleContainsScreenPoint(
+    //             panel.GetComponent<RectTransform>(),
+    //            Input.GetTouch(0).position,
+    //            Camera.main))
+    //          )
+    //    {
+    //        panel.SetActive(false);
+    //    }
+    //}
 
     private bool detectWin (int index)
     {
@@ -62,6 +64,18 @@ public class PauseMenuController : MonoBehaviour
                 && Oval_Category.full1 && Oval_Category.full2
                 && Triangle_Category.full1 && Triangle_Category.full2) return true;
         }
+        else if (index == 3)
+        {
+            if (count >= 10)
+            {
+                return true;
+            }
+        }
         return false;
+    }
+
+    public void IncreaseCount()
+    {
+        count++;
     }
 }
